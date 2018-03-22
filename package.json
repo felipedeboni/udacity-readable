@@ -1,0 +1,17 @@
+{
+  "name": "readable",
+  "version": "1.0.0",
+  "description": "This is the final assessment project for Udacity's React and Redux course.",
+  "scripts": {
+    "install-all": "cd ./front && npm install && cd ../server && npm install",
+    "start-front": "cd ./front && npm start",
+    "start-server": "cd ./server && node server",
+    "start-all": "npm-run-all -p start-front start-server",
+    "test": "cd ./front && npm test",
+    "test:coverage": "cd ./front && npm run test:coverage"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}

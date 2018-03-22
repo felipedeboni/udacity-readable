@@ -1,0 +1,26 @@
+.post__list__container {
+  .form-inline {
+    text-align: center;
+
+    @media( min-width: 767px ) {
+      text-align: right;
+    }
+
+    .control-label {
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
+
+    .form-control {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+    }
+  }
+}
+
+.post__list__not__found {
+  color: #999;
+  font-size: 18px;
+  padding: 10vh 0;
+}

@@ -1,0 +1,64 @@
+.post__image {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: flex-start;
+}
+
+.post__icon {
+  position: relative;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  border: 2px solid #DDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--redux img {
+    margin-top: -2px;
+    width: 80%;
+  }
+
+  &--react img {
+    margin-top: 1px;
+    width: 100%;
+  }
+
+  &--default img {
+    width: 50%;
+  }
+}
+
+.post__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.post__title a {
+  color: #54595F;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .post__image {
+    width: 46px;
+    height: 46px;
+    margin: 0 15px 0 -2px;
+  }
+
+  .post__icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .post__title {
+    font-size: 24px;
+  }
+}

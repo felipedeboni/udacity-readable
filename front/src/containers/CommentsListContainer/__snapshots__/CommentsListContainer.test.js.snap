@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentsListContainer renders the loading 1`] = `
+<div>
+  <CommentsList
+    category="react"
+    comments={Array []}
+    postId="8xf0y6ziyjabvozdd253nd"
+  />
+</div>
+`;

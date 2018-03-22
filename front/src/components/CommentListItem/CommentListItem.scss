@@ -1,0 +1,35 @@
+.comment__list__item {
+  border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.post__data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.comment__body p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.comment__meta {
+  color: #8F8F8F;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.comment__separator {
+  color: #BFBFBF;
+  padding: 0 3px;
+}
+
+.comment__votes {
+  display: flex;
+}

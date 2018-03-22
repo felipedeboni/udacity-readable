@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentsList renders without crashing 1`] = `
+<section
+  className="comments"
+>
+  <div
+    className="comments__counter"
+  >
+    2 comment
+    s
+  </div>
+  <ul
+    className="comments__list list-unstyled"
+  >
+    <li
+      className="comments__form"
+    >
+      <Connect(CommentFormContainer)
+        postId="1"
+      />
+    </li>
+    <Connect(CommentContainer)
+      comment={
+        Object {
+          "author": "thingone",
+          "body": "Comments. Are. Cool.",
+          "deleted": false,
+          "id": "8tu4bsun805n8un48ve89",
+          "parentDeleted": false,
+          "parentId": "8xf0y6ziyjabvozdd253nd",
+          "timestamp": 1469479767190,
+          "voteScore": -5,
+        }
+      }
+      component={[Function]}
+      key="8tu4bsun805n8un48ve89"
+    />
+    <Connect(CommentContainer)
+      comment={
+        Object {
+          "author": "thingtwo",
+          "body": "Hi there! I am a COMMENT.",
+          "deleted": false,
+          "id": "894tuq4ut84ut8v4t8wun89g",
+          "parentDeleted": false,
+          "parentId": "8xf0y6ziyjabvozdd253nd",
+          "timestamp": 1468166872634,
+          "voteScore": 6,
+        }
+      }
+      component={[Function]}
+      key="894tuq4ut84ut8v4t8wun89g"
+    />
+  </ul>
+</section>
+`;

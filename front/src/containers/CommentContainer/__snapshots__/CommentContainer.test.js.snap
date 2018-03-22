@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentContainer fetches the comment 1`] = `
+<CommentContainer
+  commentId="8tu4bsun805n8un48ve89"
+  component={[Function]}
+  fetch={[Function]}
+  history={
+    Object {
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+  remove={[Function]}
+/>
+`;
+
+exports[`CommentContainer renders without crashing 1`] = `
+<CommentListItem
+  comment={
+    Object {
+      "author": "thingtwo",
+      "body": "Hi there! I am a COMMENT.",
+      "deleted": false,
+      "id": "894tuq4ut84ut8v4t8wun89g",
+      "parentDeleted": false,
+      "parentId": "8xf0y6ziyjabvozdd253nd",
+      "timestamp": 1468166872634,
+      "voteScore": 6,
+    }
+  }
+  commentId="894tuq4ut84ut8v4t8wun89g"
+  component={[Function]}
+  fetch={[Function]}
+  remove={[Function]}
+  removeHandler={[Function]}
+/>
+`;

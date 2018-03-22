@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentScoreContainer renders without crashing 1`] = `
+<Score
+  id="894tuq4ut84ut8v4t8wun89g"
+  onVoteDown={[Function]}
+  onVoteUp={[Function]}
+  score={6}
+/>
+`;

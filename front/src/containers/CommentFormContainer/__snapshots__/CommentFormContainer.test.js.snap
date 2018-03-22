@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentFormContainer fetches the comment 1`] = `
+<div>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`CommentFormContainer renders without crashing 1`] = `
+<div>
+  <div>
+    Loading
+  </div>
+</div>
+`;

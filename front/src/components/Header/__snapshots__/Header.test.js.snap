@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders without crashing 1`] = `
+<header
+  className="app__header"
+>
+  <Link
+    className="app__logo"
+    replace={false}
+    to="/"
+  >
+    <img
+      alt="none"
+      src="react.svg"
+    />
+     Readable
+  </Link>
+  <nav
+    className="app__nav"
+  >
+    <ul
+      className="list-unstyled"
+    >
+      <li
+        className="nav__item nav__item--new-post"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav__link"
+          to="/posts/new"
+        >
+          + Post
+        </NavLink>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Header renders without crashing with categories 1`] = `
+<header
+  className="app__header"
+>
+  <Link
+    className="app__logo"
+    replace={false}
+    to="/"
+  >
+    <img
+      alt="none"
+      src="react.svg"
+    />
+     Readable
+  </Link>
+  <nav
+    className="app__nav"
+  >
+    <ul
+      className="list-unstyled"
+    >
+      <li
+        className="nav__item nav__item--new-post"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav__link"
+          to="/posts/new"
+        >
+          + Post
+        </NavLink>
+      </li>
+      <li
+        className="nav__item nav__item--sections"
+        key="0"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav__link"
+          to="/react"
+        >
+          react
+        </NavLink>
+      </li>
+      <li
+        className="nav__item nav__item--sections"
+        key="1"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav__link"
+          to="/redux"
+        >
+          redux
+        </NavLink>
+      </li>
+      <li
+        className="nav__item nav__item--sections"
+        key="2"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="nav__link"
+          to="/udacity"
+        >
+          udacity
+        </NavLink>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
